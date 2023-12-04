@@ -1,10 +1,7 @@
 import re
 
+from common import parse_file
 
-def parse_file(filename):
-    with open(filename) as file:
-        lines = [line.rstrip() for line in file]
-    return lines
 
 class CubeSample:
     """ A sample contains a number of red, blue, and green cubes """

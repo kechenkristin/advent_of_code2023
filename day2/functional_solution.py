@@ -1,10 +1,6 @@
 import re
 
-
-def parse_file(filename):
-    with open(filename) as file:
-        lines = [line.rstrip() for line in file]
-    return lines
+from common import parse_file
 
 
 def parse_string(game_str):
