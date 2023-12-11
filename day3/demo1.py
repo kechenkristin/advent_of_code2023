@@ -81,7 +81,7 @@ if __name__ == '__main__':
     demo = find_num(matrix)
     print(demo)
 
-    # sum_ = solution("input.txt")
+    # sum_ = solution("input.txt.txt")
     # print(sum_)
 
     # demo = parse_str("....456...89")
